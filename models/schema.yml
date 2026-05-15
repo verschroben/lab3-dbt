@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: stg_sales
+    description: "Промежуточная модель продаж"
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: sale_date
+        tests:
+          - not_null
+      - name: product_name
+        tests:
+          - not_null
+
+  - name: sales_by_category
+    description: "Витрина продаж по категориям"
+    columns:
+      - name: category
+        tests:
+          - not_null
+
+  - name: sales_by_day
+    description: "Витрина продаж по дням"
+    columns:
+      - name: sale_date
+        tests:
+          - not_null
