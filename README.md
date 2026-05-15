@@ -17,9 +17,9 @@
 
 
 
-- `stg\_sales` — промежуточная модель;
-- `sales\_by\_category` — витрина продаж по категориям;
-- `sales\_by\_day` — витрина продаж по дням.
+- `stg_sales` — промежуточная модель;
+- `sales_by_category` — витрина продаж по категориям;
+- `sales_by_day` — витрина продаж по дням.
 
 
 
@@ -37,7 +37,7 @@
 
 
 
-Также был создан файл `run\_dbt.bat`, который автоматически выполняет команды:
+Также был создан файл `run_dbt.bat`, который автоматически выполняет команды:
 
 
 
@@ -57,7 +57,7 @@
 
 
 
-!\[dbt run](screenshots/dbtrun.png)
+![dbt run](screenshots/dbtrun.png)
 
 
 
@@ -73,7 +73,7 @@
 
 
 
-!\[dbt test](screenshots/dbttest.png)
+![dbt test](screenshots/dbttest.png)
 
 
 
@@ -93,7 +93,7 @@
 
 
 
-!\[sales by day](screenshots/sales\_by\_day.png)
+![sales by day](screenshots/sales\_by\_day.png)
 
 
 
@@ -111,7 +111,7 @@
 
 
 
-!\[sales by category](screenshots/sales\_by\_category.png)
+![sales by category](screenshots/sales\_by\_category.png)
 
 
 
@@ -123,7 +123,7 @@
 
 
 
-!\[task scheduler](screenshots/task.png)
+![task scheduler](screenshots/task.png)
 
 
 
@@ -139,5 +139,5 @@
 
 
 
-!\[task running](screenshots/taskrunning.png)
+![task running](screenshots/taskrunning.png)
 
