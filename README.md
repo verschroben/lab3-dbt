@@ -92,14 +92,6 @@
 
 
 
-```sql
-
-SELECT \* FROM public.sales\_by\_day;
-
-```
-
-
-
 Витрина содержит данные о продажах по дням.
 
 
@@ -115,14 +107,6 @@ SELECT \* FROM public.sales\_by\_day;
 
 
 На скриншоте отображается результат выполнения SQL-запроса:
-
-
-
-```sql
-
-SELECT \* FROM public.sales\_by\_category;
-
-```
 
 
 
